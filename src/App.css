@@ -1,4 +1,12 @@
 #titleText{
   display: flex;
-  justify-items: center;
+  justify-content: center;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+}
+body{
+  margin: 10%;
 }
