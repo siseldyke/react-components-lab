@@ -2,7 +2,7 @@
 
 // import './WeatherForecast.css'
 import WeatherForecast from "./components/WeatherForecast/WeatherForecast";
-
+import'./App.css'
 
 
 
@@ -48,7 +48,7 @@ const App = () => {
   ];
   return (
   <>
-    <h1>Local Weather</h1>
+    <h1 id="titleText">Local Weather</h1>
     <section>
         <div className="weather">
           {weatherForecasts.map((weatherForecast)=> (
