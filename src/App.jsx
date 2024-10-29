@@ -56,11 +56,11 @@ const App = () => {
           key ={weatherForecast.id}
           weatherForecast = {weatherForecast}
         />
-      ))};
+      ))}
       </div>
   </section>
 </>
-  );
+  )
 }
 
 export default App

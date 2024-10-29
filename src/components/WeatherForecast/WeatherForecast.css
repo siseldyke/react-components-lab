@@ -7,10 +7,10 @@ section {
     border: 1px solid #ccc;
     flex: 1;
     padding: 10px;
-    text-align: center;
+    text-align: center
   }
   
   .weather span {
-    font-weight: bold;
+    font-weight: bold
   }
   
